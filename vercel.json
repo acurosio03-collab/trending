@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/cron/refresh?mode=quotes", "schedule": "*/15 2-9 * * 1-5" },
+    { "path": "/api/cron/refresh?mode=news", "schedule": "0 */3 * * *" }
+  ]
+}
